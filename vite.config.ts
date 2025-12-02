@@ -19,6 +19,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
 
   },
+  base: "/Raghavendra-Reddy-Portfolio/",
 
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
 
